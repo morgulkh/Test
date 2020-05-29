@@ -23,10 +23,14 @@ body {
   .img {
     position: relative;
     margin-top: -30px;
+    height: 250px;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
     img {
-      width: 100%;
-      border: 1px solid lightgrey;
-      box-sizing: border-box;
+
     }
     .badge {
       position: absolute;
