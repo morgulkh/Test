@@ -1,12 +1,14 @@
 body {
   font-family: 'Ubuntu', sans-serif;
 }
+
 .container {
-  max-width: 1400px;
+  max-width: 1450px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
   .cart {
     width: 270px;
     padding: 10px;
@@ -20,6 +22,7 @@ body {
       }
     }
   }
+
   .img {
     position: relative;
     margin-top: -30px;
@@ -29,9 +32,6 @@ body {
     display: flex;
     justify-content: center;
     background-color: #fff;
-    img {
-
-    }
     .badge {
       position: absolute;
       width: 100%;
@@ -56,16 +56,17 @@ body {
       }
     }
   }
+
   h2 {
     font-size: 15px;
   }
+
   .price {
     display: flex;
     flex-wrap: wrap;
     font-weight: 700;
     align-items: flex-end;
     margin: 25px 0;
-
     .cost {
       font-size: 25px;
       margin-right: 20px;
@@ -76,17 +77,21 @@ body {
       text-decoration: line-through;
     }
   }
+
   .btn-container {
     display: flex;
     justify-content: space-between;
   }
+
   .add {
     color: red;
   }
+
   .view {
     color: grey;
     background-color: lightgrey;
   }
+
   .btn {
     text-decoration: none;
     width: 95px;
@@ -98,6 +103,7 @@ body {
     font-weight: 700;
     transition: background-color .15s linear;
   }
+
   .btn-more {
     width: 100%;
     display: flex;
@@ -118,20 +124,11 @@ p {
   font-size: 13px;
   margin: 0;
 }
-ul {
-  font-size: 13px;
-}
 
 .footer {
-  .container {
-    max-width: 1400px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
   ul {
     padding: 0;
+    font-size: 13px;
     li {
       list-style-type: none;
       margin: 0.5em 0;
@@ -140,7 +137,7 @@ ul {
         content: "";
         border-color: transparent red;
         border-style: solid;
-        border-width: 0.35em 0 0.35em 0.45em;
+        border-width: 6px 0 6px 6px;
         display: block;
         height: 0;
         width: 0;
@@ -150,12 +147,14 @@ ul {
       }
     }
   }
+
   .col-foot {
     width: 370px;
     border: 1px solid lightgrey;
     padding: 45px 28px;
     margin-bottom: 30px;
   }
+
   .address {
     display: flex;
     flex-direction: column;
@@ -171,6 +170,7 @@ ul {
       }
     }
   }
+
   h2 {
     font-size: 20px;
     text-transform: uppercase;

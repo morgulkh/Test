@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1450px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -116,19 +116,9 @@ p {
   margin: 0;
 }
 
-ul {
-  font-size: 13px;
-}
-
-.footer .container {
-  max-width: 1400px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 .footer ul {
   padding: 0;
+  font-size: 13px;
 }
 .footer ul li {
   list-style-type: none;
@@ -139,7 +129,7 @@ ul {
   content: "";
   border-color: transparent red;
   border-style: solid;
-  border-width: 0.35em 0 0.35em 0.45em;
+  border-width: 6px 0 6px 6px;
   display: block;
   height: 0;
   width: 0;
