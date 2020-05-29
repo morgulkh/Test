@@ -1,0 +1,175 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .cart {
+  width: 270px;
+  padding: 10px;
+  margin-top: 50px;
+  border: 1px solid lightgrey;
+  transition: box-shadow 0.15s linear;
+}
+.container .cart:hover {
+  box-shadow: 0px 4px 15px -2px rgba(0, 0, 0, 0.75);
+}
+.container .cart:hover .add {
+  background-color: lightcoral;
+}
+.container .img {
+  position: relative;
+  margin-top: -30px;
+}
+.container .img img {
+  width: 100%;
+  border: 1px solid lightgrey;
+  box-sizing: border-box;
+}
+.container .img .badge {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.container .img .badge div {
+  padding: 15px 20px;
+  position: absolute;
+  transform: translateY(-50%);
+}
+.container .img .badge .sale {
+  background-color: red;
+  left: 0;
+}
+.container .img .badge .new {
+  background-color: #000;
+  right: 0;
+}
+.container h2 {
+  font-size: 15px;
+}
+.container .price {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 700;
+  align-items: flex-end;
+  margin: 25px 0;
+}
+.container .price .cost {
+  font-size: 25px;
+  margin-right: 20px;
+}
+.container .price .discount-cost {
+  font-size: 18px;
+  color: red;
+  text-decoration: line-through;
+}
+.container .btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+.container .add {
+  color: red;
+}
+.container .view {
+  color: grey;
+  background-color: lightgrey;
+}
+.container .btn {
+  text-decoration: none;
+  width: 95px;
+  border: 1px solid lightgrey;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  transition: background-color 0.15s linear;
+}
+.container .btn-more {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  color: red;
+}
+.container .btn-more .more {
+  color: red;
+}
+.container .btn-more .more:hover {
+  background-color: lightcoral;
+}
+
+p {
+  font-size: 13px;
+  margin: 0;
+}
+
+ul {
+  font-size: 13px;
+}
+
+.footer .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.footer ul {
+  padding: 0;
+}
+.footer ul li {
+  list-style-type: none;
+  margin: 0.5em 0;
+  padding: 0 1em;
+}
+.footer ul li:before {
+  content: "";
+  border-color: transparent red;
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 0.9em;
+  position: relative;
+}
+.footer .col-foot {
+  width: 370px;
+  border: 1px solid lightgrey;
+  padding: 45px 28px;
+  margin-bottom: 30px;
+}
+.footer .address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer .address div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.footer .address div i {
+  margin-right: 10px;
+  color: red;
+  font-size: 30px;
+}
+.footer h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=main.css.map */
