@@ -1,16 +1,33 @@
+/* 650/970/1200
+ @media (max-width: 1200px) {
+    .container {
+      min-width: 1200px;
+    }
+  }
+  @media (max-width: 970px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (max-width: 650px) {
+    .container {
+      width: 650px;
+    }
+  }
+*/
 body {
   font-family: "Ubuntu", sans-serif;
 }
 
 .container {
-  max-width: 1450px;
+  max-width: 1350px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 .container .cart {
-  width: 270px;
+  width: 250px;
   padding: 10px;
   margin-top: 50px;
   border: 1px solid lightgrey;
@@ -129,7 +146,7 @@ p {
   content: "";
   border-color: transparent red;
   border-style: solid;
-  border-width: 6px 0 6px 6px;
+  border-width: 0.35em 0 0.35em 0.45em;
   display: block;
   height: 0;
   width: 0;
@@ -138,7 +155,7 @@ p {
   position: relative;
 }
 .footer .col-foot {
-  width: 370px;
+  width: 310px;
   border: 1px solid lightgrey;
   padding: 45px 28px;
   margin-bottom: 30px;
